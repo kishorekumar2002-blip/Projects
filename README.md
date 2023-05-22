@@ -1,2 +1,2 @@
 # Projects
-This is my first project by using bootstrap to develo[e
+This is my first project by using bootstrap to develope
