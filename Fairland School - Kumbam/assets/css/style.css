@@ -1822,5 +1822,33 @@ section {
   -webkit-transform:scale(1.2);
   transform:scale(1.2);
   }
-  
-  
+
+  /* Model section */
+  .modal-title,
+  .model-btn{
+    color: var(--primaryColor);
+  }
+  .modal-footer{
+    padding: 10px 0;
+  }
+  .modal-footer button{
+    width: 100%;
+    background-color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+  }
+  .modal-footer button:hover{
+    background-color: transparent;
+    color: var(--blackColor);
+    border: 1px solid var(--primaryColor);
+  }
+  .modal-body form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .modal-content{
+    width: 800px;
+  }
+  .modal-dialog{
+    max-width: 801px;
+  }
